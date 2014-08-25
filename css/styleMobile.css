@@ -1,0 +1,135 @@
+/* ***********************************
+    COPYRIGHT (C) Nicholas Chan 2014
+    All rights reserved worldwide
+          nicwaichan.@gmail.com
+  *********************************** */
+
+body {
+	background: #ccc;
+	opacity: 0.8;
+	font-family: arial;
+}
+#progressBox {
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+	height: 150px;
+	border: 1px solid grey;
+	background: white;
+}
+#progressHeader {
+	height: 50px;
+	color: #DDDDDD;
+	font-size: 20px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	line-height: 50px;
+	background: #808080;
+	text-indent: 7px;
+}
+#closeBtn {
+	position: absolute;
+	float: right;
+	right: 9px;
+	border: 1px solid #CACACA;
+	width: 32px;
+	height: 32px;
+	top: 7px;
+	background-color: #CACACA;
+	font-size: 50px;
+	font-weight: 100;
+	color: #727272;
+	line-height: 30px;
+	text-indent: 2px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.progressBar {
+	margin: 30px auto 15px;
+	display: block;
+	-webkit-appearance: none;
+		appearance: none;
+	width: 150px;
+	height:15px;
+	background: white;
+	border: 1px solid #DDDDDD;
+}
+.progressBar::-webkit-progress-bar {
+	background: white;
+}
+.progressBar::-moz-progress-bar {
+	background: -moz-linear-gradient(top, #7FC8FD 5%, #4C7999 100%);
+}
+.progressBar::-webkit-progress-value{
+	background: -webkit-linear-gradient(top, #7FC8FD 5%, #4C7999 100%);
+}
+.progressBarDone {
+	margin: 30px auto 15px;
+	display: block;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 150px;
+	height:15px;
+	background: white;
+	border: 1px solid #DDDDDD;
+}
+.progressBarDone::-webkit-progress-bar {
+	background: white;
+}
+.progressBarDone::-moz-progress-bar {
+	background: -moz-linear-gradient(top, #75BC03 5%, #487102 52%);
+}
+.progressBarDone::-webkit-progress-value{
+	background: -webkit-linear-gradient(top, #75BC03 5%, #487102 52%);
+}
+#countVal {
+	text-align: center;
+	color:grey;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+#tickIco {
+	width:20px;
+	margin-left: 10px;
+	margin-top: -5px;
+}
+#resetBtn {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+	width: 90px;
+	height: 60px;
+	font-size: 20px;
+	background: orange;
+	border-radius: 3px;
+	border: 1px solid grey; 
+	color: white;
+}
+#pauseBtn {
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	cursor: pointer;
+	width: 90px;
+	height: 60px;
+	font-size: 20px;
+	background: pink;
+	border-radius: 3px;
+	border: 1px solid grey; 
+	color: white;
+}
+#showBoxBtn {
+	position: absolute;
+	top: 10px;
+	left: 220px;
+	cursor: pointer;
+	width: 90px;
+	height: 60px;
+	font-size: 20px;
+	background: #70B8FF;
+	border-radius: 3px;
+	border: 1px solid grey; 
+	color: white;
+	display: none;
+}
